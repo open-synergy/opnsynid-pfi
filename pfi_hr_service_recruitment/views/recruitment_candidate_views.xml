@@ -19,6 +19,7 @@
                     <field name="last_work" widget="html"/>
                     <label for="last_education"/>
                     <field name="last_education" widget="html"/>
+                    <field name="years_of_experience"/>
                 </page>
                 <page name="cover_letter" string="Cover Letter">
                     <label for="cover_letter"/>
