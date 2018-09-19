@@ -20,3 +20,6 @@ class RecruitmentCandidate(models.Model):
     last_education = fields.Text(
         string="Last Education",
     )
+    years_of_experience = fields.Float(
+        string="Years of Experiences"
+    )
