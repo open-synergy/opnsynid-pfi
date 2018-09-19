@@ -23,3 +23,6 @@ class RecruitmentCandidate(models.Model):
     years_of_experience = fields.Float(
         string="Years of Experiences"
     )
+    expected_job_position_string = fields.Char(
+        string="Expected Job Position",
+    )
